@@ -1,4 +1,5 @@
 #include <QCoreApplication>
+#include "HistogramBase.cpp"
 
 int main(int argc, char *argv[])
 {
