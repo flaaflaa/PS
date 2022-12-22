@@ -2,5 +2,8 @@
 
 Hist::HistogramBase::HistogramBase()
 {
+    void add(Hist::EInteger) {
+
+    };
 
 }
