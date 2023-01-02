@@ -8,5 +8,5 @@ public:
   virtual ~Logger();
 
 
-#endif // LOG_H
 };
+#endif // LOG_H

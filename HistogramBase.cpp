@@ -1,9 +1,23 @@
 #include "HistogramBase.h"
 
-Hist::HistogramBase::HistogramBase()
+using namespace Hist;
+
+HistogramBase::~HistogramBase()
 {
-    void add(Hist::EInteger) {
+    return;
+}
 
-    };
+HistogramBase::HistogramBase(std::unique_ptr<Logger>)
+{
+    return;
+}
 
+HistogramBase::HistogramBase(const HistogramBase&)
+{
+    return;
+}
+
+HistogramBase::HistogramBase(HistogramBase&&)
+{
+    return;
 }

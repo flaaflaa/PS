@@ -10,6 +10,8 @@ CONFIG -= app_bundle
 SOURCES += \
         Histogram.cpp \
         HistogramBase.cpp \
+        Log.cpp \
+        RandomEintegerGenerator.cpp \
         main.cpp
 
 # Default rules for deployment.
@@ -20,4 +22,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     Histogram.h \
     HistogramBase.h \
-    Log.h
+    Log.h \
+    RandomEintegerGenerator.h
